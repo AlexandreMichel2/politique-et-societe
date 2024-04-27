@@ -8,6 +8,15 @@
 
 	var	$window = $(window),
 		$body = $('body'),
+		settings = {
+
+			// Carousels
+				carousels: {
+					speed: 4,
+					fadeIn: true,
+					fadeDelay: 250
+				},
+		},
 		$nav = $('#nav');
 
 	// Breakpoints.

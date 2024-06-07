@@ -2484,18 +2484,19 @@ input, select, textarea {
 		background-repeat:no-repeat;
 		background-size: cover;
 		z-index: 1;
-		padding: 14.58em 0;
-		background-position-y: 75%;
+		padding: 0 0 0 0;
+		background-position-y: 80%;
+		height:94vh
 	}
 
-		#banner .content {
+	#banner .content {
 			position: relative;
 			background-position: top left, center center;
 			background-size: auto, 100% 250%;
 			background-repeat: repeat, no-repeat;
 			text-align: center;
 			margin: 0;
-			padding: 4em 0 3.5em 0;
+			padding: 10.5em 0 0 0;
 		}
 
 			#banner .content h2 {

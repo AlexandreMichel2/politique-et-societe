@@ -98,7 +98,19 @@
 												<h2>Les gaz à effet de serre</h2>
 												<ul class="meta">
 													<li class="icon fa-user">Alexandre Michel</li>
-													<li class="icon fa-clock">2024-06-09</li>
+													<li class="icon fa-clock">
+														<script>
+															const date = new Date();
+
+															let day = date.getDate();
+															let month = date.getMonth() + 1;
+															let year = date.getFullYear();
+															
+															// This arrangement can be altered based on how we want the date's format to appear.
+															let currentDate = `${year}-${month}-${day}`;
+															document.write(currentDate);
+														</script>
+													</li>
 												</ul>
 											</header>
 

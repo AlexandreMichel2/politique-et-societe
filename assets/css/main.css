@@ -143,6 +143,7 @@ input, select, textarea {
 
 	h3, h4 {
 		font-size: 1.25em;
+		margin-bottom: 1.5em;
 	}
 
 	a {
@@ -192,7 +193,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 3em;
+		margin-bottom: 1.25em;
 	}
 
 /* Section/Article */

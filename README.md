@@ -1,2 +1,3 @@
 # Projet_site_web
-Placeholder description.
+
+[Site web en construction] - Diplômé·es de l'École de Politique appliquée (ÉPA) de l'Université de Sherbrooke, Alexandre Michel (M.A.) et Dania Paradis-Bouffard (M.A.) centralisent leurs réflexions sous forme d'analyses, de billets d'actualité et de schématisations de données sur ce site web statique intitulé Mise au Point Politique & Société. L'information présentée concerne principalement, mais non exhaustivement, les enjeux suivants : environnement, politique municipale et urbanisation, coopération internationale, droits humains, géopolitique et économie.

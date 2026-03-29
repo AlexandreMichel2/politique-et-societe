@@ -1839,7 +1839,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #f4fff7;
+				background: #bc2d0f;
 			}
 
 			input[type="button"].alt:active,
@@ -1962,7 +1962,7 @@ input, select, textarea {
 				top: -5px;
 			}
 
-				ul.contact li:hover a.fa-facebook {
+				ul.contact li:hover a.fa-facebook-f {
 					background-color: #3C5A98;
 				}
 
@@ -1974,7 +1974,7 @@ input, select, textarea {
 					background-color: #C4376B;
 				}
 
-				ul.contact li:hover a.fa-linkedin {
+				ul.contact li:hover a.fa-linkedin-in {
 					background-color: #006599;
 				}
 
@@ -2404,12 +2404,12 @@ input, select, textarea {
 			}
 
 			#nav li:hover a, #nav li:hover span {
-				background: #122b2c;
+				background: #bc2d0f;
 				color: #f4fff7;
 			}
 
 			#nav li.active a, #nav li.active span {
-				background: #122b2c;
+				background: #bc2d0f;
 				color: #f4fff7;
 			}
 
@@ -2448,12 +2448,12 @@ input, select, textarea {
 
 			.dropotron li:hover > a, .dropotron li:hover > span {
 				color: #f4fff7;
-				background: #122b2c;
+				background: #bc2d0f;
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span {
 				color: #f4fff7;
-				background: #122b2c;
+				background: #bc2d0f;
 			}
 
 			.dropotron li:first-child {
@@ -2533,13 +2533,55 @@ input, select, textarea {
 
 				#banner .content .button:hover {
 					color: #f4fff7;
-					border-color: #ff3d14;
+					border-color: #bc2d0f;
 				}
 
 				#banner .content .button:active {
 					color: #f4fff7;
-					border-color: #ff3d14;
+					border-color: #bc2d0f;
 				}
+			#banner .content .button.scroll-down {
+				/* Keep your existing transitions and colors */
+				-moz-transition: border-color .2s ease-in-out, color .2s ease-in-out;
+				-webkit-transition: border-color .2s ease-in-out, color .2s ease-in-out;
+				transition: border-color .2s ease-in-out, color .2s ease-in-out;
+				
+				color: #f4fff7;
+				background: transparent !important;
+				border: solid 6px;
+				border-color: #0a4f57;
+
+				/* Double the size of the circle */
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				width: 120px;   /* Increased from 60px */
+				height: 120px;  /* Increased from 60px */
+				border-radius: 50%;
+				margin-top: 50px;
+				padding: 0;
+				position: relative;
+				cursor: pointer;
+			}
+
+			/* Create the arrow using borders */
+			#banner .content .button.scroll-down::after {
+				content: '';
+				width: 24px;
+				height: 24px;
+				border-right: 6px solid currentColor; /* Uses the button's text color */
+				border-bottom: 6px solid currentColor;
+				transform: rotate(45deg);
+				margin-top: -10px; /* Centers the "tip" of the arrow visually */
+				display: block;
+			}
+
+			#banner .content .button:hover,
+			#banner .content .button:active {
+				color: #f4fff7;
+				border-color: #bc2d0f;
+			}
+
 
 /* Main */
 
